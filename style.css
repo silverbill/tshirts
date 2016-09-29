@@ -1,1 +1,23 @@
-body{color:green}
+
+.grid {
+ display: inline-block;
+ text-align: center;
+ max-width: 80%;
+ border-color: red;
+ margin-left: auto;
+ margin-right: auto;
+ background-color: lightblue;
+}
+.menu > li {
+    position: relative;
+    display: inline-block;
+}
+.sub-menu {
+    position:absolute;
+    top:100%;
+    left:0;
+    display:none;
+}
+.menu li:hover .sub-menu {display:block;}
+.menu * {display:inline-block;}
+.sub-menu * {display:block;}
