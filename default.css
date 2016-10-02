@@ -1,0 +1,57 @@
+﻿* {
+    &, &:before, &:after {box-sizing: border-box;}
+}
+
+.whole {
+border: solid 1px red
+}
+
+.grid {
+	width: 100%;
+    border: blue 1px solid;
+    height: 400px;
+}
+
+.item {
+      position: relative;
+      width: 33%;
+      height: 80pxpx;
+      margin: auto;
+      border: 2px solid #c00;
+}
+.shirtpic {
+    position: absolute;
+    left: 30px;
+    top: 10px;
+    right: 30px;
+    background-color: #00c;
+}
+.menu > li {
+    border: 1px black dashed;
+    display: inline-block;
+    position: relative;
+    background-color: aqua;
+    width: 70px;
+    text-align: left;
+}
+
+.sub-menu {
+    position:absolute;
+    top:100%;
+    left:0;
+    display:none;
+}
+
+.menu li:hover .sub-menu {
+    display:block;
+}
+
+.menu * {
+    display: inline-block;
+}
+.sub-menu * {
+    display: block;
+}
+.menu * {
+    display: inline-block;
+}
